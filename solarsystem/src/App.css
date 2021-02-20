@@ -1,3 +1,39 @@
+:root {
+  --hFont: 'Goldman';
+  --bodyFont: 'Lato';
+  --color1: #3892af;
+  --color2: #8d8296;
+  --color3: #1f3437;
+
+}
+
+body {
+  font-family: var(--bodyFont);
+  background-image: url(./img/heven/galaxy1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2,
+h3,
+.navigationA {
+  font-family: var(--hFont);
+  color: white;
+}
+
+.navigation {
+  background-color: var(--color1) !important;
+
+}
+
+.navigationA {
+  color: #ffffff;
+  font-size: var(--hFont);
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +68,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
