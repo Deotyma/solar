@@ -9,7 +9,7 @@
 
 body {
   font-family: var(--bodyFont);
-  background-image: url(./img/heven/galaxy1.jpg);
+  background-image: url(./img/heven/galaxy2.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -19,7 +19,8 @@ body {
 h1,
 h2,
 h3,
-.navigationA {
+.navigationA,
+.paragraphe {
   font-family: var(--hFont);
   color: white;
 }
@@ -31,7 +32,24 @@ h3,
 
 .navigationA {
   color: #ffffff;
-  font-size: var(--hFont);
+  font-family: var(--hFont);
+}
+
+.button {
+  background-color: var(--color1) !important;
+  color: #ffffff !important;
+  font-family: var(--hFont) !important;
+  border-color: var(--color1) !important;
+  font-size: 1rem !important;
+}
+
+.button:hover {
+  background-color: var(--color2) !important;
+  border-color: var(--color2) !important;
+}
+
+.paragraphe {
+  font-size: 1.5rem;
 }
 
 .App {
