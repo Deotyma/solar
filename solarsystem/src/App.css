@@ -4,7 +4,7 @@
   --color1: #3892af;
   --color2: #8d8296;
   --color3: #1f3437;
-
+  --color4: rgba(23, 32, 31, 0.5)
 }
 
 body {
@@ -48,8 +48,25 @@ h3,
   border-color: var(--color2) !important;
 }
 
+.buttons {
+  background-color: var(--color2) !important;
+  color: #ffffff !important;
+  font-family: var(--hFont) !important;
+  border-color: var(--color2) !important;
+  font-size: 1rem !important;
+}
+
+.buttons:hover {
+  background-color: var(--color1) !important;
+  border-color: var(--color1) !important;
+}
+
 .paragraphe {
   font-size: 1.5rem;
+}
+
+.astres {
+  background-color: var(--color4);
 }
 
 .App {
