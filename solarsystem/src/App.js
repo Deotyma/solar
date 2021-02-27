@@ -17,7 +17,7 @@ class App extends React.Component {
           <Route exact path="/" component={Home} />
           <Route path="/home" component={Home} />
           <Route path="/planets" component={Planets} />
-          <Route path="/oneplanet" component={OnePlanet} />
+          <Route path="/oneplanet/:id" component={OnePlanet} />
           <Route path="/*" component={Error404} />
         </Switch>
       </BrowserRouter>

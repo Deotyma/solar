@@ -9,7 +9,7 @@ class NavBar extends React.Component {
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <span className="navigationA">
-              <i class="fas fa-sun"></i> Solar System
+              <i className="fas fa-sun"></i> Solar System
             </span>
           </Link>
           <button
@@ -39,13 +39,6 @@ class NavBar extends React.Component {
                   <span className="navigationA">Planets</span>
                 </Link>
               </li>
-              {/*
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  Pricing
-                </a>
-              </li>{" "}
-              */}
             </ul>
           </div>
         </div>

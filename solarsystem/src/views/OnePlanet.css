@@ -1,0 +1,14 @@
+.onePlanet {
+    background-color: var(--color1);
+    background-image: url("../img/heven/galaxy3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.puissance {
+    font-size: smaller;
+}
